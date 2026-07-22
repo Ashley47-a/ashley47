@@ -1,0 +1,16 @@
+{
+  "name": "bigea-claude-bridge",
+  "version": "1.0.0",
+  "description": "Bridge server connecting the futures-desk webapp, MT5 EA, and Claude API",
+  "main": "backend-bridge.js",
+  "scripts": {
+    "start": "node backend-bridge.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
